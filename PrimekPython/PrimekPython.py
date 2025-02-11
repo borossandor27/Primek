@@ -1,4 +1,4 @@
-'''Javítatlan prímszám keresés'''
+'''JavÃ­tatlan prÃ­mszÃ¡m keresÃ©s'''
 import time
 
 def is_prime(n):
@@ -11,10 +11,10 @@ def is_prime(n):
 
 start_time = time.time()
 
-print("Prím számok 1 és 10000 között:")
+print("PrÃ­m szÃ¡mok 1 Ã©s 10000 kÃ¶zÃ¶tt:")
 for num in range(1, 10000):
     if is_prime(num):
         print(num)
 
 end_time = time.time()
-print(f"A futási idõ: {end_time - start_time:.6f} másodperc")
+print(f"A futÃ¡si idÅ‘: {end_time - start_time:.6f} mÃ¡sodperc")
